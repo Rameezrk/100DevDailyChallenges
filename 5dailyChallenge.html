@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Please create a function that takes in an array of numbers and returns a new array that only contains odd numbers. </h1>
+    <h1>see console log</h1>
+
+    <script type="text/javascript">
+      function oddNumberArrays(arrayHere) {
+
+        let newArrayOdd = []
+
+        for (let i = 0; i <= arrayHere.length+1; i++) {
+          if (arrayHere[i] % 2 === 0) {
+            newArrayOdd.push(arrayHere[i])
+          }
+        }
+        console.log(newArrayOdd)
+      }
+
+      oddNumberArrays([126,44,1,2,3,45,65,88,100,16])
+    </script>
+  </body>
+</html>

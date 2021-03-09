@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Please create a function that takes in the name of a person. This function should add this person to a names list and let them know their position on the list. The names list should be created outside of the function. </h1>
+    <h1>See console log</h1>
+
+    <script type="text/javascript">
+
+      function nameArray(addName) {
+        let friendsNames = ['jonathan','robert','richard']
+        friendsNames.push(addName)
+        console.log(friendsNames)
+        console.log(`${addName} is number ${friendsNames.length} on the list!`)
+      }
+
+      nameArray('james')
+
+    </script>
+  </body>
+</html>
