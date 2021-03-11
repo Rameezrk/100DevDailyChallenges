@@ -48,3 +48,5 @@ if ((bullets / dragons) % 2 === 0 && bullets > 0) {
 function litres(time) {
   return parseInt(0.5* time);
 }
+
+//end
