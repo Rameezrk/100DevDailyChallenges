@@ -23,4 +23,18 @@ function makeUpperCase(str) {
   return str.toUpperCase()
 }
 
+//challenge 3 - Reversed sequence - https://www.codewars.com/kata/5a00e05cc374cb34d100000d
+
+//solution
+
+const reverseSeq = n => {
+  let output = []
+
+  for (let i = 1; i <= n; i++) {
+    output.push(i)
+  }
+
+  return output.reverse()
+};
+
 //end
