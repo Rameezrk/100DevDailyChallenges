@@ -76,4 +76,18 @@ function switchItUp(number){
   }
 }
 
+//challenge 4 - Area or Perimeter - https://www.codewars.com/kata/5ab6538b379d20ad880000ab
+
+//solution
+
+const areaOrPerimeter = function(l , w) {
+  // Return your answer
+
+  if (l === w) {
+    return l*w
+  } else {
+    return (l+w)*2
+  }
+};
+
 //end
