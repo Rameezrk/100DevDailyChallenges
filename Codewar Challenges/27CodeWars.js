@@ -90,4 +90,21 @@ const areaOrPerimeter = function(l , w) {
   }
 };
 
+//challenge 5 - Find Multiples of a Number - https://www.codewars.com/kata/58ca658cc0d6401f2700045f
+
+//solution
+
+function findMultiples(integer, limit) {
+  //your code here
+
+  //
+  let output = []
+  for (let i = 1; (integer * i) <= limit; i++) {
+    if ((integer * i) - limit <= 0) {
+      output.push(integer*i)
+    }
+  }
+  return output
+}
+
 //end//
