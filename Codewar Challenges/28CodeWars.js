@@ -64,4 +64,33 @@ function expressionMatter(a, b, c) {
   return Math.max(...finalResult)
 
 }
-//end//
+
+//challenge 4 - Total amount of points - https://www.codewars.com/kata/5bb904724c47249b10000131
+
+//solution
+
+function points(games) {
+  // loop the arrays
+
+  let gamesSplit = []
+  let result = 0
+
+  for (let i = 0; i < games.length; i++) {
+
+    if (games[i][0] > games[i][2]) {
+      result += 3
+    } else if (games[i][0] < games[i][2]) {
+      result += 0
+    } else {
+      result += 1
+    }
+
+
+  }
+  return result
+  //split the property of the array from :
+  //then do the if else values?
+  //return the result
+}
+
+//end
