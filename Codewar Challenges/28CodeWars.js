@@ -107,4 +107,4 @@ var max = function(list){
     return Math.max(...list);
 }
 
-//end
+//end//
