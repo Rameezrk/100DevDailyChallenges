@@ -13,4 +13,4 @@ function detect(comment) {
 
 }
 
-//end
+//end//
