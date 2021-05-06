@@ -37,4 +37,13 @@ function numberToString(num) {
  return num.toString()
 }
 
+//challenge 4 - Remove exclamation marks - https://www.codewars.com/kata/57a0885cbb9944e24c00008e
+
+//solution 
+
+function removeExclamationMarks(s) {
+  let replace = s.replace(/!/g,'')
+  return replace
+}
+
 //end//
