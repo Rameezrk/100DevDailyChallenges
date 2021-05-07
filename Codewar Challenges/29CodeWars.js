@@ -39,11 +39,19 @@ function numberToString(num) {
 
 //challenge 4 - Remove exclamation marks - https://www.codewars.com/kata/57a0885cbb9944e24c00008e
 
-//solution 
+//solution
 
 function removeExclamationMarks(s) {
   let replace = s.replace(/!/g,'')
   return replace
+}
+
+//challenge 5 - Template Strings - https://www.codewars.com/kata/55a14f75ceda999ced000048
+
+//solution
+
+var TempleStrings = function(obj, feature) {
+  return `${obj} are ${feature}`
 }
 
 //end//
