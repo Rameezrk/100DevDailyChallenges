@@ -12,4 +12,22 @@ function digitize(n) {
   return output.reverse()
 }
 
+//challenge 2 - Cat years, Dog years - https://www.codewars.com/kata/5a6663e9fd56cb5ab800008b
+
+//solution
+
+var humanYearsCatYearsDogYears = function(humanYears) {
+  // Your code here!
+
+  if (humanYears === 1) {
+    return [humanYears,humanYears*15,humanYears*15]
+  } else if (humanYears === 2) {
+    return [humanYears,24,24]
+  } else {
+    return [humanYears,humanYears*4+16,humanYears*5+14]
+  }
+  
+}
+
+
 //end//
