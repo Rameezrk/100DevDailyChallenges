@@ -30,4 +30,17 @@ var humanYearsCatYearsDogYears = function(humanYears) {
 
 }
 
-//end//
+//challenge 3 - The Wide-Mouthed frog! - https://www.codewars.com/kata/57ec8bd8f670e9a47a000f89
+
+//solution
+
+function mouthSize(animal) {
+  // code here
+  if (animal.toLowerCase() === 'alligator') {
+    return 'small'
+  } else {
+    return 'wide'
+  }
+}
+
+//end
