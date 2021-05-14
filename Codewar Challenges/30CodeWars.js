@@ -43,4 +43,15 @@ function mouthSize(animal) {
   }
 }
 
+//challenge 4 - Find the smallest integer in the array - https://www.codewars.com/kata/55a2d7ebe362935a210000b2
+
+//solution
+
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    let result = args.sort(function (a,b) { return a-b})
+    return result[0]
+  }
+}
+
 //end
