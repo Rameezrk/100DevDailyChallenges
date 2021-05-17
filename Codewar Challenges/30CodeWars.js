@@ -84,4 +84,17 @@ function apple(x){
  }
 }
 
+//challenge 7 - Abbreviate a Two Word Name - https://www.codewars.com/kata/57eadb7ecd143f4c9c0000a3
+
+//solution
+
+function abbrevName(name){
+
+    // code away
+
+  let fullname = name.split(' ')
+  let intials = fullname.shift().charAt(0) + '.' + fullname.pop().charAt(0);
+  return intials.toUpperCase();
+}
+
 //end
