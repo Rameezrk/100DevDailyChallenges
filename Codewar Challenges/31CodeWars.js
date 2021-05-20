@@ -19,4 +19,15 @@ function sumMix(x){
   return numberConvert.reduce((a,b) => (a+b))
 }
 
+//challenge 3 - Convert a string to an array - https://www.codewars.com/kata/57e76bc428d6fbc2d500036d
+
+//solution
+
+function stringToArray(string){
+
+  // code code code
+let convertString = string.split(' ')
+return convertString
+}
+
 //end
