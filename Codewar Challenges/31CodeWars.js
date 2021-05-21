@@ -30,4 +30,14 @@ let convertString = string.split(' ')
 return convertString
 }
 
+//challenge 4 - Remove String Spaces - https://www.codewars.com/kata/57eae20f5500ad98e50002c5
+
+//solution
+
+function noSpace(x){
+  let x1 = x.split(' ')
+
+  return x1.join('')
+}
+
 //end
