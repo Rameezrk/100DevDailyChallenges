@@ -40,4 +40,18 @@ function noSpace(x){
   return x1.join('')
 }
 
+//challenge 5 - Stringy Strings - https://www.codewars.com/kata/563b74ddd19a3ad462000054
+
+//solution
+
+function stringy(size) {
+  // your code here
+  let output = ''
+  //loop through all the numbers up until the size thats been put in
+  for (let i = 1; i <= size; i++) {
+     output+=i%2
+  }
+  return output
+}
+
 //end
