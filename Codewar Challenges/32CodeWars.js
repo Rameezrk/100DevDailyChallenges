@@ -30,4 +30,12 @@ function formatMoney(amount){
  return '$' + amount.toFixed(2)
 }
 
+//challenge 4 - No Loops 2 - You only need one - https://www.codewars.com/kata/57cc40b2f8392dbf2a0003ce
+
+//solution
+
+function check(a,x){
+  return a.includes(x)
+};
+
 //end
