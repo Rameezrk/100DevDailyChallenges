@@ -12,4 +12,13 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
   }
 };
 
+//challenge 2 - Enumerable Magic #25 - Take the First N Elements - https://www.codewars.com/kata/545afd0761aa4c3055001386
+
+//solution
+
+function take(arr, n) {
+  // Your code here
+  return arr.slice(0, n)
+}
+
 //end
