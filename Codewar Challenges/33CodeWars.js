@@ -21,4 +21,19 @@ function take(arr, n) {
   return arr.slice(0, n)
 }
 
+//challenge 3 - Twice as old - https://www.codewars.com/kata/5b853229cfde412a470000d0
+
+//solution
+
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  // your code here
+  let calc = sonYearsOld*2
+
+  if (dadYearsOld > calc) {
+    return dadYearsOld - calc
+  } else {
+    return calc - dadYearsOld
+  }
+}
+
 //end
