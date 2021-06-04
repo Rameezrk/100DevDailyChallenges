@@ -36,4 +36,13 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
   }
 }
 
+//challenge 4 - Do you speak "English"? - https://www.codewars.com/kata/58dbdccee5ee8fa2f9000058
+
+//solution
+
+function spEng(sentence){
+//write your code here
+  return sentence.toLowerCase().includes('english')
+}
+
 //end
