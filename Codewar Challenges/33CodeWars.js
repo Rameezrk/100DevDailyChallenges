@@ -45,4 +45,16 @@ function spEng(sentence){
   return sentence.toLowerCase().includes('english')
 }
 
+//challenge 5 - noobCode 01: SUPERSIZE ME.... or rather, this integer! - https://www.codewars.com/kata/5709bdd2f088096786000008
+
+//solution
+
+function superSize(num){
+
+  let output = String(num).split("").map((num)=>{
+  return Number(num)})
+
+  return Number(output.sort((a,b) => b-a).join(''))
+}
+
 //end
