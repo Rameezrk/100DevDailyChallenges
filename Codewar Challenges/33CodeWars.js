@@ -57,4 +57,13 @@ function superSize(num){
   return Number(output.sort((a,b) => b-a).join(''))
 }
 
+//challenge 6 - Convert a String to a Number! - https://www.codewars.com/kata/544675c6f971f7399a000e79
+
+//solution
+
+var stringToNumber = function(str){
+  // put your code here
+  return parseInt(str);
+}
+
 //end
