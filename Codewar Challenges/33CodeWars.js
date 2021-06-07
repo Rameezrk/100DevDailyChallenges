@@ -66,4 +66,18 @@ var stringToNumber = function(str){
   return parseInt(str);
 }
 
+//challenge 7 - Gravity Flip - https://www.codewars.com/kata/5f70c883e10f9e0001c89673
+
+//solution
+
+const flip=(d, a)=>{
+  //TODO
+  if (d === 'R') {
+    return a.sort((a, b) => a-b)
+  } else if (d === 'L') {
+    return a.sort((a, b) => b-a)
+  }
+}
+
+
 //end
