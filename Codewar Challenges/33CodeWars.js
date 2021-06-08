@@ -79,5 +79,32 @@ const flip=(d, a)=>{
   }
 }
 
+//challenge 8 - Sum The Strings - https://www.codewars.com/kata/5966e33c4e686b508700002d
+
+//solution
+
+function sumStr(a,b) {
+
+  let aZero = 0
+  let abTotal = 0
+  let bZero =0
+
+  if (a === '') {
+    aZero
+  } else {
+    aZero = parseInt(a)
+  }
+
+  if (b === '') {
+    bZero
+  } else {
+    bZero = parseInt(b)
+  }
+
+  abTotal = aZero + bZero
+  return abTotal.toString()
+
+
+}
 
 //end
