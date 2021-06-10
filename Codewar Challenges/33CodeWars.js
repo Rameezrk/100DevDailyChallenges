@@ -107,4 +107,19 @@ function sumStr(a,b) {
 
 }
 
+//challenge 9 - What's the real floor? - https://www.codewars.com/kata/574b3b1599d8f897470018f6
+
+//solution
+
+function getRealFloor(n) {
+
+  if (n > 13) {
+    return n-2
+  } else if (n >= 1) {
+    return n-1
+  } else {
+    return n
+  }
+}
+
 //end
