@@ -1,19 +1,16 @@
-//challenge 10 - Opposites Attract - https://www.codewars.com/kata/555086d53eac039a2a000083
+//challenge 10 - pick a set of first elements - https://www.codewars.com/kata/572b77262bedd351e9000076
 
 //solution
 
-function lovefunc(flower1, flower2){
-  // moment of truth
-
-  if (flower1 % 2 === 0 && flower2 % 2 === 0) {
-    return false
-  } else if (flower1 % 2 === 1 && flower2 % 2 === 1){
-    return false
-  } else {
-    return true
-  }
-
+function first(arr, n) {
+ if(n == undefined) return arr.slice(0, 1);
+  if(n == 0) return [];
+  let newArr = [];
+  if(n <= arr.length){
+    for(let i = 0; i < n; i++){
+      newArr.push(arr[i])
+    } return newArr
+  } return arr
 }
-
 
 //end
