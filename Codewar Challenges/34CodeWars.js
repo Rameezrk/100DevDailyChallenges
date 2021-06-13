@@ -13,4 +13,13 @@ function first(arr, n) {
   } return arr
 }
 
+//challenge 2 - You only need one - Beginner - https://www.codewars.com/kata/57cc975ed542d3148f00015b
+
+//solution
+
+function check(a, x) {
+  // your code here
+  return a.includes(x)
+}
+
 //end//
