@@ -22,4 +22,22 @@ function check(a, x) {
   return a.includes(x)
 }
 
+//challenge 3 - Thinkful - Logic Drills: Traffic light - https://www.codewars.com/kata/58649884a1659ed6cb000072
+
+//solution
+
+function updateLight(current) {
+
+  //your code here!
+
+  if (current === 'red') {
+    return 'green'
+  } else if (current === 'yellow') {
+    return 'red'
+  } else {
+    return 'yellow'
+  }
+
+}
+
 //end//
