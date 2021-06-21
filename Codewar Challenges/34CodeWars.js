@@ -40,4 +40,21 @@ function updateLight(current) {
 
 }
 
+//challenge 4 - Highest and Lowest - https://www.codewars.com/kata/554b4ac871d6813a03000035
+
+//solution
+
+function highAndLow(numbers){
+  // ...
+ let output = numbers.split(' ')
+ let convertInt = output.map((i) => Number(i))
+
+ let min = Math.min.apply(null, convertInt)
+ let max = Math.max.apply(null, convertInt)
+
+ return  `${max} ${min}`
+
+
+}
+
 //end//
