@@ -66,4 +66,20 @@ function heron(a,b,c) {
   return Math.sqrt(s*((s-a)*(s-b)*(s-c)))
 }
 
+//challenge 6 - // All Star Code Challenge #20 - https://www.codewars.com/kata/5865a75da5f19147370000c7
+
+//solution
+
+function addArrays(array1, array2) {
+//code here
+
+  let output = []
+
+  if (array1.length != array2.length) {
+    return error
+  } else {
+    return array1.map((num,idx) => num+array2[idx])
+  }
+}
+
 //end
