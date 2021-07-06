@@ -82,4 +82,10 @@ function addArrays(array1, array2) {
   }
 }
 
+//challenge 7
+
+//solution
+
+
+
 //end
