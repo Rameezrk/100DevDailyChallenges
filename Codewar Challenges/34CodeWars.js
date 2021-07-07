@@ -105,4 +105,8 @@ function correctness(bobsDecisions, expertDecisions) {
 
 }
 
+//challenge 8
+
+//solution
+
 //end
