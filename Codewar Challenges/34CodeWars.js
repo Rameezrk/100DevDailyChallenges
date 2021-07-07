@@ -82,10 +82,27 @@ function addArrays(array1, array2) {
   }
 }
 
-//challenge 7
+//challenge 7 - Chicken Sexing - https://www.codewars.com/kata/57ed40e3bd793e9c92000fcb
 
 //solution
 
+function correctness(bobsDecisions, expertDecisions) {
 
+  let output = 0
+
+  for (let i = 0; i < bobsDecisions.length; i++) {
+    if (bobsDecisions[i] === expertDecisions[i]) {
+    output+= 1
+  }  else if (bobsDecisions[i] === '?' || expertDecisions[i] === '?') {
+    output+= 0.5
+  } else {
+    output += 0
+  }
+
+    }
+
+  return output
+
+}
 
 //end
