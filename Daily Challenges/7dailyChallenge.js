@@ -15,3 +15,5 @@ function squareSum(numbers){
 }
   return result
 }
+
+//end
